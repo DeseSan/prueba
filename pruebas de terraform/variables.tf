@@ -3,13 +3,18 @@
   #[default = <valor_por_defecto>]
 #}
 
-
+#VARIABLES DE LA MÁQUINA VIRTUAL
 variable "prefix" {
-  type = "string"
-  default = gitorrent
+  type = string
+  default = "gitorrent"
 }
 variable "location" {
   type    = string
+  default = ""
+}
+
+variable "admin_username" {
+  type = string
   default = ""
 }
 

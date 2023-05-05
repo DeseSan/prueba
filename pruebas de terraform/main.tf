@@ -1,4 +1,4 @@
-# Create virtual machine
+# MÁQUINA VIRTUAL
 resource "azurerm_windows_virtual_machine" "main" {
   name                  = "${var.prefix}-vm"
   admin_username        = "azureuser"
@@ -27,7 +27,7 @@ resource "azurerm_windows_virtual_machine" "main" {
   }
 }
 
-# Install IIS web server to the virtual machine
+# IIS SERVER
 resource "azurerm_virtual_machine_extension" "web_server_install" {
   name                       = "${var.prefix}-wsi"
   virtual_machine_id         = var.vm_id
