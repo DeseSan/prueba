@@ -1,3 +1,0 @@
-Este es el texto que esta en la rama main
-esta es la linea añadida en la rama1 esta es la modificacion de la rama 2
-vamos a probar a pushearla y mergerla en el visual estudiogit
