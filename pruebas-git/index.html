@@ -17,6 +17,13 @@
   <p>Consider what happens when you start working on a new feature in a dedicated branch, 
     then another team member updates the master branch with new commits. This results in a forked history, 
     which should be familiar to anyone who has used Git as a collaboration tool.</p>
-  
+    <p>Now, let's say that the new commits in master are relevant to 
+        the feature that you're working on. To incorporate the new commits into your feature branch, 
+        you have two options: merging or rebasing</p>
+  <h2>The merge option</h2>
+  <p>The easiest option is to merge the master branch into the feature branch using something like the following:
+
+   <p> <b>git checkout feature</b></p>
+   <p><b> git merge master</p></b>
 </body>
 </html>
