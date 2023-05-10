@@ -3,10 +3,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <title>rebase</title>
 </head>
 <body>
     <h1>the rebase option</h1>
-    <p></p>
+    <p>As an alternative to merging, you can rebase the feature branch onto master 
+        branch using the following commands:
+<br>
+<br>
+    <b>   <p>git checkout feature</p> </b>
+<b> <p> git rebase master</p> </b>
+<br>
+<br>
+       <p>This moves the entire feature branch to begin on the tip of the master branch, 
+        effectively incorporating all of the new commits in master. But, instead of using a merge commit, 
+        rebasing re-writes the project history by creating brand new commits for each 
+        commit in the original branch.</p>
 </body>
 </html>
