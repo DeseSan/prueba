@@ -22,7 +22,6 @@
         you have two options: merging or rebasing</p>
   <h2>The merge option</h2>
   <p>The easiest option is to merge the master branch into the feature branch using something like the following:
-
    <p> <b>git checkout feature</b></p>
    <p><b> git merge master</p></b>
    <br>
@@ -32,5 +31,18 @@
 <p>This creates a new "merge commit" in the feature branch that ties 
     together the histories of both branches,
      giving you a branch structure that looks like this:</p>
+<br>
+<br>
+<p>Merging is nice because it's a non-destructive operation. 
+    The existing branches are not changed in any way. 
+    This avoids all of the potential pitfalls of rebasing (discussed below).</p>
+    <br>
+<p>On the other hand, this also means that 
+    the feature branch will have an extraneous merge commit every time you need
+     to incorporate upstream changes. If master is very active, this can pollute your
+      feature branch's history quite a bit. While it's possible to mitigate this issue 
+      with advanced git log options, 
+    it can make it hard for other developers to understand the history of the project.</p>
+<a href="./rebase.html">The Rebase Option</a>    
 </body>
 </html>
