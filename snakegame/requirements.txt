@@ -1,0 +1,3 @@
+Flask==2.0.1
+SQLAchemy==1.4.22
+request>=2.26.0
