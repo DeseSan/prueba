@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'snakegameII'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E92AE8B659104BD480DDBBD1CBB86DBD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_93BA6965557543E19A6C94D5D7DC9430 }}
